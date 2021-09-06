@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+   font-size: 25px;
+  background: yellowgreen;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li, img {
+  max-width: 500px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-message {
+    color: red;
+}
+
+.hidden {
+  display: none;
+}
+#js-search-term {
+  padding: 9px 0;
+  width: 60%;
+  font-size: 25px;
+}
+#js-max-results {
+  padding: 9px 0;
+  width: 30%;
+  font-size: 25px;
+}
+#button {
+  padding: 15px;
+  background: blue;
+  color: white;
+  width: 62px;
+}
